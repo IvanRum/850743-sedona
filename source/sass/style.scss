@@ -1,1 +1,45 @@
-body {}
+@import "page__header.scss";
+
+body {
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  left: -20px;
+}
+
+.page-header__toggle {
+  width: 23px;
+  height: 21px;
+}
+
+.site-list{
+list-style: none;
+text-align: center;
+padding-left: 0px;
+}
+
+.site-list__item {
+  background-color: #81b3d2;
+  border-bottom: 1px solid #678fa8;
+  border-top: 1px solid #9ac2db;
+}
+
+.site-list__item-link {
+  font-family: "PT Sans","Arial",sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 76px;
+  padding-right: 76px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
