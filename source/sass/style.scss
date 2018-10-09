@@ -1,8 +1,11 @@
-@import "page__header.scss";
+@import "page-header.scss";
+@import "site-list.scss";
+@import "promo.scss";
+@import "reasons.scss";
+@import "hotels-searching.scss";
+@import "map.scss";
+@import "page-footer.scss";
 
-body {
-  margin: 0 auto;
-}
 
 .visually-hidden {
   position: absolute;
@@ -11,4 +14,8 @@ body {
   height: 1px;
   margin: -1px;
   left: -20px;
+}
+
+.page {
+  margin: 0 auto;
 }
