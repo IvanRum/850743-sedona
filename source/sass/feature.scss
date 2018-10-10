@@ -1,26 +1,23 @@
-.hotels-searching__title {
-  padding: 0;
+.feature {
   margin: 0 auto;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feature__item__title {
   font-family: "PT Sans","Arial",sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 23px;
-  margin-bottom: 30px;
-  width: 280px;
 }
 
-.hotels-searching__text {
+.feature__item__text {
   font-family: "PT Sans","Arial",sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 21px;
   text-transform: uppercase;
   color: #333333;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  width: 280px;
 }

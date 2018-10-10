@@ -27,27 +27,27 @@
   <main class="page__form page-form">
     <h1 class="visually-hidden">Седона</h1>
     <div class="page-form__promo form-promo">
-      <img class="form-promo__img" src="source/img/sedona.png" width="0" height="0" alt="Welcome to Sedona">
-      <h2 class="form-promo__content">Оставьте свой отзыв</h2>
-      <p class="form-promo__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а так же о посещенных вами
-        достопримечательностях</p>
+      <img class="form-promo__img" src="img/text-sedona.svg" width="233" height="40" alt="Welcome to Sedona">
     </div>
+    <h2 class="form-promo__content">Оставьте свой отзыв</h2>
+    <p class="form-promo__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а так же о посещенных вами
+        достопримечательностях</p>
     <form class="page-form__form form" action="https://echo.htmlacademy.ru" method="post">
-      <fieldset class="form__personal-dates personal-dates">
-        <legend class="personal-dates__title">Представьтесь:</legend>
+      <fieldset class="form__personal-datas personal-datas">
+        <legend class="personal-datas__title">Представьтесь:</legend>
         <p>
-          <label class="personal-dates__label" for="firstname">имя:</label>
-          <input class="personal-dates__input" type="text" name="firstname" id="firstname" placeholder="Петр"> </p>
+          <label class="personal-datas__label" for="firstname">имя:</label>
+          <input class="personal-datas__input" type="text" name="firstname" id="firstname" placeholder="Петр"> </p>
         <p>
-          <label class="personal-dates__label" for="lastname">фамилия:</label>
-          <input class="personal-dates__input" type="text" name="lastname" id="lastname" placeholder="Иванов"> </p>
+          <label class="personal-datas__label" for="lastname">фамилия:</label>
+          <input class="personal-datas__input" type="text" name="lastname" id="lastname" placeholder="Иванов"> </p>
         <p>
-          <label class="personal-dates__label" for="middlename">отчество:</label>
-          <input class="personal-dates__input" type="text" name="middlename" id="middlename" placeholder="Александрович">
+          <label class="personal-datas__label" for="middlename">отчество:</label>
+          <input class="personal-datas__input" type="text" name="middlename" id="middlename" placeholder="Александрович">
         </p>
       </fieldset>
       <fieldset class="form__contact-information contact-information">
-        <legend class="contact-information__title">Представьтесь:</legend>
+        <legend class="contact-information__title">Контактная информация:</legend>
         <p>
           <label class="contact-information__label" for="tel">Контактный телефон*:</label>
           <input class="contact-information__input" type="tel" name="tel" id="tel" placeholder="Введите телефон"> </p>
@@ -59,13 +59,13 @@
       <fieldset class="form__impression impression">
         <legend class="impression__title">Ваше общее впечатление</legend>
         <p>
-          <input class="impression__choice" type=radio name="positive" id="positive" checked>
+          <input class="impression__choice" type=radio name="radio" id="positive" checked>
           <label for="positive" tabindex="0">Скорее положительное</label></p>
         <p>
-          <input class="impression__choice" type=radio name="negative" id="negative">
+          <input class="impression__choice" type=radio name="radio" id="negative">
           <label for="negative" tabindex="0">Скорее отрицательное</label></p>
         <p>
-          <input class="impression__choice" type=radio name="complicated" id="complicated">
+          <input class="impression__choice" type=radio name="radio" id="complicated">
           <label for="complicated" tabindex="0">Затрудняюсь ответить</label></p>
       </fieldset>
       <fieldset class="form__landmarks landmarks">
@@ -90,7 +90,7 @@
           <textarea class="comment__text" name="comment" id="comment" placeholder="Опишите подробно все свои восторги"></textarea>
       </fieldset>
       <label for="send"></label>
-      <input class="send-button" name="send" id="send" type="submit" value="Отправить отзыв">
+      <input class="button" name="send" id="send" type="submit" value="Отправить отзыв">
     </form>
   </main>
   <footer class="page__footer page-footer">
