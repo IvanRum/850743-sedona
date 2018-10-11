@@ -1,12 +1,11 @@
 .promo {
-  background:  url("/img/bg-intro-triangle-desktop.svg"),url("/img/bg-back-mobile@1x.jpg");
+  background: url("/img/bg-intro-triangle-desktop.svg"), url("/img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-color: #4478a4;
   min-height: 378px;
   margin: 0 auto;
   background-position: 50% bottom;
   text-align: center;
-
 }
 
 .promo__img {
@@ -15,7 +14,7 @@
 }
 
 .promo__content {
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;

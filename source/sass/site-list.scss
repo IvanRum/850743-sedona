@@ -1,12 +1,11 @@
-.site-list{
+.site-list {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   list-style: none;
   text-align: center;
-  padding-left: 0px;
   order: -1;
-  }
+}
 
 .site-list__item {
   background-color: #81b3d2;
@@ -15,11 +14,11 @@
 }
 
 .site-list__item-link {
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  }
+}

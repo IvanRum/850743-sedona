@@ -1,5 +1,5 @@
 .video-gallery__title {
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
@@ -11,7 +11,7 @@
 }
 
 .video-gallery__text {
-  font-family: "PT Sans","Arial",sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
@@ -21,14 +21,15 @@
   width: 280px;
   margin-top: 40px;
 }
+
 .video-gallery__clip {
   min-height: 201px;
   margin: 0 auto;
   padding: 0;
   width: 320px;
   background-color: #9fb413;
-  background-image: url(/img/video-mobile@1x.jpg);
+  background-image: url("/img/video-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% top;
   background-size: 320px 201px;
- }
+}
