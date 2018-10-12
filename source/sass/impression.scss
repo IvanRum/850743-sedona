@@ -1,22 +1,13 @@
 .impression {
-  margin: 0 auto;
-  padding: 0;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
   border: none;
   width: 280px;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $bordergray;
 }
 
 .impression__title {
   padding: 0;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
   text-transform: uppercase;
   text-align: center;
   margin-top: 23px;
@@ -31,27 +22,23 @@
 .impression label {
   display: block;
   position: relative;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
   padding-left: 70px;
   margin-bottom: 13px;
-}
 
-.impression label::before {
-  content: "";
-  position: absolute;
-  top: -18px;
-  left: 0;
-  display: block;
-  width: 22px;
-  height: 22px;
-  background-color: #f2f2f2;
-  border: 17px solid #f2f2f2;
-  border-radius: 50%;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: $bordergray;
+    border: 17px solid $bordergray;
+    border-radius: 50%;
+  }
 }
 
 .impression__choice:checked ~ label::before {
-  background-color: #000000;
+  background-color: $black;
 }

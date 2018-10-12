@@ -1,5 +1,8 @@
 .gallery {
-  margin: 0 auto;
   width: 320px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $bordergray;
+}
+
+.gallery__photo {
+  margin: 0 auto;
 }

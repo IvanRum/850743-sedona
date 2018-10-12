@@ -1,43 +1,41 @@
-.form {
-  border-top: 1px solid #e5e5e5;
-  margin-top: 23px;
+.form__personal-datas {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.form-promo {
-  background: url("/img/bg-intro-triangle-desktop.svg"), url("/img/bg-back-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  background-color: #4478a4;
-  min-height: 160px;
+.form__contact-information {
   margin: 0 auto;
-  background-position: 50% bottom;
-  text-align: center;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.form-promo__img {
+.form__impression {
   margin: 0 auto;
-  margin-top: 52px;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.form-promo__content {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
-  text-transform: uppercase;
+.form__landmarks {
   margin: 0 auto;
-  margin-top: 45px;
-  text-align: center;
-  width: 255px;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.form-promo__text {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #333333;
+.form__comment {
   margin: 0 auto;
-  text-align: center;
-  width: 280px;
-  margin-top: 40px;
+  padding: 0;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
 }

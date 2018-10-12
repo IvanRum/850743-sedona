@@ -1,25 +1,19 @@
 .powered-by {
   display: block;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 26px;
   text-transform: uppercase;
-  margin: 0 auto;
   text-align: center;
-  margin-top: 52px;
-  margin-left: -30px;
 }
 
 .powered-by-link {
   position: relative;
-}
 
-.powered-by-link::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  width: 48px;
-  height: 48px;
-  padding-top: 13px;
-  background: url("/img/logo-htmlacademy.svg") no-repeat;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    padding-top: 13px;
+    background: url("../img/logo-htmlacademy.svg") no-repeat;
+  }
 }

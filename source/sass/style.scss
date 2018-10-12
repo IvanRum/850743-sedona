@@ -1,5 +1,10 @@
+@import "variables.scss";
+@import "scaffolding.scss";
+@import "text.scss";
+@import "page.scss";
 @import "page-header.scss";
 @import "site-list.scss";
+@import "page-main.scss";
 @import "promo.scss";
 @import "reasons.scss";
 @import "hotels-searching.scss";
@@ -9,28 +14,17 @@
 @import "feature.scss";
 @import "powered-by.scss";
 @import "social-networks.scss";
+@import "page-form.scss";
 @import "form.scss";
+@import "form-promo.scss";
 @import "personal-datas";
 @import "contact-information.scss";
 @import "impression.scss";
 @import "landmarks.scss";
 @import "comment.scss";
+@import "page-photo.scss";
 @import "player-controls.scss";
 @import "video-gallery.scss";
 @import "photo-promo.scss";
 @import "photo.scss";
 @import "gallery.scss";
-
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  left: -20px;
-}
-
-.page {
-  margin: 0 auto;
-}

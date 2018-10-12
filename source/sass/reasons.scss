@@ -1,10 +1,6 @@
 .reasons__title {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
   text-transform: uppercase;
-  color: #333333;
+  color: $darkgray;
   margin: 0 auto;
   margin-top: 40px;
   text-align: center;
@@ -17,48 +13,47 @@
   padding: 0;
 }
 
-.reasons__item--reason-first {
-  background: url("/img/bg-triangle.svg");
-  background-color: #81b3d2;
-  color: #ffffff;
-  margin: 0 auto;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: 50% top;
-  background-size: 320px 36px;
-  min-height: 470px;
-  display: block;
-}
+.reasons__item {
+  &--reason-first {
+    background: url("../img/bg-triangle.svg");
+    background-color: $blue;
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 320px 36px;
+    min-height: 470px;
+    display: block;
+  }
 
-.reasons__item--reason-second {
-  background-color: #81b3d2;
-  color: #ffffff;
-  margin: 0 auto;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-position: 50% top;
-  background-size: 320px 36px;
-  min-height: 470px;
-}
+  &--reason-second {
+    background-color: $blue;
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 320px 36px;
+    min-height: 470px;
+  }
 
-.reasons__item--reason-third {
-  background-color: #eeeeee;
-  border-bottom: 1px solid #d6d6d6;
-}
+  &--reason-third {
+    background-color: $gray;
+    border-bottom: 1px solid $bordergray;
+  }
 
-.reasons__item--reason-fourth {
-  background-color: #eeeeee;
-  border-bottom: 1px solid #d6d6d6;
-}
+  &--reason-fourth {
+    background-color: $gray;
+    border-bottom: 1px solid $bordergray;
+  }
 
-.reasons__item--reason-fifth {
-  background-color: #eeeeee;
+  &--reason-fifth {
+    background-color: $gray;
+  }
 }
 
 .reasons__item__title {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 21px;
-  line-height: 10px;
   text-transform: uppercase;
   margin: 0 auto;
   text-align: center;
@@ -66,9 +61,6 @@
 }
 
 .reasons__item__num {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
   text-align: center;
   margin: 0 auto;
   margin-top: 18px;
@@ -76,10 +68,6 @@
 }
 
 .reasons__item__text {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
   text-transform: uppercase;
   margin: 0 auto;
   text-align: center;

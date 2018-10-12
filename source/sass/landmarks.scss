@@ -1,22 +1,13 @@
 .landmarks {
-  margin: 0 auto;
-  padding: 0;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
   border: none;
   width: 280px;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid $bordergray;
 }
 
 .landmarks__title {
   padding: 0;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
   text-transform: uppercase;
   text-align: center;
   margin-top: 23px;
@@ -31,27 +22,23 @@
 .landmarks label {
   display: block;
   position: relative;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
   padding-left: 70px;
   margin-bottom: 13px;
-}
 
-.landmarks label::before {
-  content: "";
-  position: absolute;
-  top: -18px;
-  left: 0;
-  display: block;
-  width: 22px;
-  height: 22px;
-  background: #f2f2f2;
-  border: 17px solid #f2f2f2;
-  border-radius: 5px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: $bordergray;
+    border: 17px solid $bordergray;
+    border-radius: 5px;
+  }
 }
 
 .landmarks__choice:checked ~ label::before {
-  background: #f2f2f2  url("/img/icon-tick.svg") no-repeat;
+  background: $bordergray  url("../img/icon-tick.svg") no-repeat;
 }
