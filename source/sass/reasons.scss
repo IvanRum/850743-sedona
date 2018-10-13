@@ -1,0 +1,76 @@
+.reasons__title {
+  text-transform: uppercase;
+  color: $darkgray;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 255px;
+}
+
+.reasons__list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.reasons__item {
+  &--reason-first {
+    background: url("../img/bg-triangle.svg");
+    background-color: $blue;
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 320px 36px;
+    min-height: 470px;
+    display: block;
+  }
+
+  &--reason-second {
+    background-color: $blue;
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 320px 36px;
+    min-height: 470px;
+  }
+
+  &--reason-third {
+    background-color: $gray;
+    border-bottom: 1px solid $bordergray;
+  }
+
+  &--reason-fourth {
+    background-color: $gray;
+    border-bottom: 1px solid $bordergray;
+  }
+
+  &--reason-fifth {
+    background-color: $gray;
+  }
+}
+
+.reasons__item__title {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.reasons__item__num {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.reasons__item__text {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 47px;
+  width: 265px;
+}

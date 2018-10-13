@@ -1,0 +1,30 @@
+.form-promo {
+  background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-color: $backgroundblue;
+  min-height: 160px;
+  background-position: 50% bottom;
+  text-align: center;
+}
+
+.form-promo__img {
+  margin: 0 auto;
+  margin-top: 52px;
+}
+
+.form-promo__content {
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+  width: 255px;
+}
+
+.form-promo__text {
+  text-transform: uppercase;
+  color: $darkgray;
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+  margin-top: 40px;
+}

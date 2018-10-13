@@ -1,0 +1,28 @@
+.video-gallery__title {
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+  width: 320px;
+}
+
+.video-gallery__text {
+  text-transform: uppercase;
+  color: $darkgray;
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+  margin-top: 40px;
+}
+
+.video-gallery__clip {
+  min-height: 201px;
+  margin: 0 auto;
+  padding: 0;
+  width: 320px;
+  background-color: $video-background;
+  background-image: url("../img/video-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  background-size: 320px 201px;
+}

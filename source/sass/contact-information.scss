@@ -1,0 +1,38 @@
+.contact-information {
+  border: none;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $bordergray;
+}
+
+.contact-information__title {
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+.contact-information__label {
+  text-transform: uppercase;
+  color: $darkgray;
+  padding-left: 20px;
+  margin-bottom: 13px;
+}
+
+.contact-information__input {
+  background-color: $lightgray;
+  color: $black;
+  border: none;
+  width: 260px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+
+  &::placeholder {
+    color: $black;
+    opacity: 1;
+  }
+}

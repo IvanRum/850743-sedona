@@ -1,0 +1,23 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+
+  &--top {
+    display: flex;
+    order: 2;
+    justify-content: center;
+  }
+}
+
+.page-header__nav__list {
+  margin: 0 auto;
+  padding: 0;
+  order: -1;
+}
+
+.page-header__toggle {
+  width: 23px;
+  height: 23px;
+  border: none;
+  background: url("../img/icon-menu.svg") no-repeat;
+}

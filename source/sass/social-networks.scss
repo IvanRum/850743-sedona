@@ -1,0 +1,71 @@
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+
+  &--twitter {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    color: $white;
+    background-color: $blue;
+    margin-right: 5px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 26px;
+      height: 20px;
+      background: url("../img/icon-twitter.svg") no-repeat;
+    }
+  }
+
+  &--fb {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    color: $white;
+    background-color: $blue;
+    margin-right: 5px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 13px;
+      left: 19px;
+      width: 26px;
+      height: 20px;
+      background: url("../img/icon-facebook.svg") no-repeat;
+    }
+  }
+
+  &--youtube {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    color: $white;
+    background-color: $blue;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 16px;
+      left: 15px;
+      width: 26px;
+      height: 20px;
+      background: url("../img/icon-youtube.svg") no-repeat;
+    }
+  }
+}

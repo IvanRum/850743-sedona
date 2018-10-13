@@ -1,0 +1,19 @@
+.powered-by {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.powered-by-link {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    padding-top: 13px;
+    background: url("../img/logo-htmlacademy.svg") no-repeat;
+  }
+}
