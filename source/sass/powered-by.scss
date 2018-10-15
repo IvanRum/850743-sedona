@@ -4,16 +4,26 @@
   text-align: center;
 }
 
-.powered-by-link {
+.powered-by__link {
   position: relative;
+  margin-left: 70px;
 
   &::before {
     content: "";
     position: absolute;
-    left: 10px;
-    width: 48px;
-    height: 48px;
-    padding-top: 13px;
+    left: -30px;
+    width: 28px;
+    height: 34px;
     background: url("../img/logo-htmlacademy.svg") no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .powered-by__link {
+    margin-left: 40px;
+
+    &::before {
+      left: -40px;
+    }
   }
 }

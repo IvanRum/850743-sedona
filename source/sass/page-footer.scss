@@ -1,18 +1,37 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+}
+
 .page-footer__hashtag-sedona {
   display: block;
-  margin: 0 auto;
   text-align: center;
   margin-top: 40px;
 }
 
 .page-footer__powered-by {
-  margin: 0 auto;
-  margin-top: 52px;
-  margin-left: -30px;
+  margin-top: 40px;
 }
 
 .page-footer__social-networks {
   margin: 0;
   padding: 0;
   margin-top: 42px;
+}
+
+@media (min-width: 768px) {
+ .page-footer {
+    flex-direction: row;
+    width: 648px;
+    justify-content: space-between;
+    align-items: stretch
+  }
+
+  .page-footer__hashtag-sedona {
+    padding-top: 13px;
+  }
+
+  .page-footer__powered-by {
+    padding-top: 13px;
+  }
 }
