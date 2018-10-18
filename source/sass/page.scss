@@ -8,3 +8,10 @@
     margin-bottom: 30px;
   }
 }
+
+@media (min-width: 1200px) {
+  .page {
+    background-color: $gray;
+  }
+}
+

@@ -17,3 +17,10 @@
     margin: 0 auto;
   }
 }
+
+@media (min-width: 1200px) {
+  .page-header-nav {
+    width: 1200px;
+    background-color: $white;
+  }
+}

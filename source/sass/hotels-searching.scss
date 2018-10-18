@@ -16,3 +16,25 @@
   margin-top: 30px;
   width: 280px;
 }
+
+@media (min-width: 768px) {
+
+  .hotels-searching__title {
+   font-size: 30px;
+   line-height: 26px;
+   margin-top: 0px;
+   padding-top: 25px;
+  }
+
+  .hotels-searching__text {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hotels-searching {
+    background-color: $white;
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

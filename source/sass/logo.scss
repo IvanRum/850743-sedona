@@ -1,0 +1,23 @@
+.logo__image {
+  background-image: url("../img/logo-sedona-mobile.svg");
+  background-size: 103px 80px;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  width: 103px;
+  min-height: 80px;
+}
+
+@media (min-width: 768px) {
+  .logo__image {
+    background-image: url("../img/logo-sedona-tablet.svg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo__image {
+    background-image: url("../img/logo-sedona-desktop.svg");
+    background-size: 187px 96px;
+    width: 187px;
+    min-height: 96px;
+  }
+}

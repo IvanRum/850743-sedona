@@ -20,11 +20,11 @@
 }
 
 @media (min-width: 768px) {
- .page-footer {
+  .page-footer {
     flex-direction: row;
     width: 648px;
     justify-content: space-between;
-    align-items: stretch
+    align-items: stretch;
   }
 
   .page-footer__hashtag-sedona {
@@ -33,5 +33,16 @@
 
   .page-footer__powered-by {
     padding-top: 13px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer {
+    width: 1080px;
+    background-color: $white;
+    margin-bottom: 0;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 45px;
   }
 }

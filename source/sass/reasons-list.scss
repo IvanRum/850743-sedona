@@ -1,0 +1,22 @@
+
+.reasons-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  background-color: $gray;
+}
+
+@media (min-width: 768px) {
+  .reasons-list {
+    display: flex;
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+  }
+}

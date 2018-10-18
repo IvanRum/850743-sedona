@@ -1,0 +1,39 @@
+.page-main-header {
+ background-color: $white;
+}
+
+.page-main-header__title {
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+  width: 255px;
+}
+
+.page-main-header__text {
+  text-transform: uppercase;
+  color: $darkgray;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  width: 255px;
+}
+
+@media (min-width: 768px) {
+  .page-main-header__title {
+    width: 448px;
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+
+  .page-main-header__text {
+    width: 648px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-main-header {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
