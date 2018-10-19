@@ -6,3 +6,9 @@
 .page-form__promo {
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .page-form__form {
+    border: none;
+  }
+}

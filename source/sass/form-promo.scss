@@ -9,7 +9,11 @@
 
 .form-promo__img {
   margin: 0 auto;
-  margin-top: 52px;
+  background: url("../img/text-sedona.svg");
+  background-repeat: no-repeat;
+  background-size: 230px 39px;
+  background-position: 50%;
+  min-height: 210px;
 }
 
 .form-promo__content {
@@ -27,4 +31,42 @@
   text-align: center;
   width: 280px;
   margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .form-promo {
+    background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-color: $backgroundblue;
+    min-height: 290px;
+    background-position: 50% bottom;
+    text-align: center;
+    width: 768px;
+  }
+
+  .form-promo__img {
+    background-size: 460px 78px;
+  }
+
+  .form-promo__content {
+    font-size: 30px;
+    line-height: 26px;
+    width: 320px;
+  }
+
+  .form-promo__text {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-promo {
+    background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-color: $backgroundblue;
+    min-height: 301px;
+    background-position: 50% bottom;
+    text-align: center;
+    width: 1200px;
+  }
 }

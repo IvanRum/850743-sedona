@@ -42,3 +42,9 @@
 .impression__choice:checked ~ label::before {
   background-color: $black;
 }
+
+@media (min-width: 768px) {
+  .impression {
+    border: none;
+  }
+}

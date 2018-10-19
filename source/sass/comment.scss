@@ -32,3 +32,29 @@
     opacity: 1;
   }
 }
+
+@media (min-width: 768px) {
+  .comment {
+    width: 768px;
+    border-top: 1px solid $bordergray;
+    align-items: center;
+  }
+
+  .comment__title {
+    margin: 0 auto;
+  }
+
+  .comment__text {
+    width: 648px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .comment {
+    width: 960px;
+  }
+
+  .comment__text {
+    width: 960px;
+  }
+}

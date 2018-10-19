@@ -10,8 +10,6 @@
   margin: 0 auto;
   padding: 0;
   padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .form__impression {
@@ -26,16 +24,52 @@
   margin: 0 auto;
   padding: 0;
   padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .form__comment {
   margin: 0 auto;
   padding: 0;
   padding-bottom: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.form__asterisk {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  .form__impression {
+    order: -1;
+  }
+
+  .form__button {
+    width: 324px;
+    margin-left: 48px;
+    margin-top: 0;
+    margin-right: 187px;
+  }
+
+  .form__asterisk {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form {
+    width: 1200px;
+    background-color: $white;
+  }
+
+  .form__button {
+    margin-left: 109px;
+    margin-right: 495px;
+  }
 }
