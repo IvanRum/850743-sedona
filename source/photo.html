@@ -9,7 +9,7 @@
     <header class="page__header page-header">
       <nav class="page-header__nav page-header-nav">
         <a class="page-header__logo logo">
-          <img class="logo__image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седона">
+          <div class="logo__image"></div>
         </a>
         <!--<button class="page-header__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>-->
         <ul class="page-header-nav__list site-list site-list--left">
@@ -24,22 +24,24 @@
     </header>
     <main class="page__photo page-photo">
       <h1 class="visually-hidden">Седона</h1>
-      <div class="page-photo__promo photo-promo">
-        <img class="photo-promo__img" src="img/text-sedona.svg" width="233" height="40" alt="Welcome to Sedona">
-      </div>
-      <h2 class="photo-promo__content text--weight-bold text--size--medium text--line-height--26px">Фото и Видео</h2>
-      <p class="photo-promo__text text--weight-normal text--size--small text--line-height--24px">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        <header class="page-main__header page-main-header">
+          <div class="page-photo__promo photo-promo">
+            <div class="photo-promo__img"></div>
+          </div>
+        <h2 class="photo-promo__content text--weight-bold text--size--medium text--line-height--26px">Фото и Видео</h2>
+        <p class="photo-promo__text text--weight-normal text--size--small text--line-height--24px">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      </header>
       <section class="page-photo__gallery gallery">
-        <figure class="gallery__photo photo">
-            <a class="photo__link"><img class="photo__img" src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Неродные просторы"></a>
-            <figcaption class="photo__inscription">
+        <figure class="gallery__photo photo photo--top-photo">
+            <a class="photo__link"><div class="photo__img photo__img--photo-sunset"></div></a>
+            <figcaption class="photo__inscription photo__inscription--top-photo">
               <p class="photo__name text--weight-bold text--size--small text--line-height--24px">Неродные просторы</p>
               <span class="photo__author text--weight-normal text--size--small text--line-height--24px">Автор фото: Борис</span>
               <div class="photo__likes text--weight-bold text--size--small text--line-height--24px">1350</div>
             </figcaption>
         </figure>
         <figure class="gallery__photo photo">
-          <a class="photo__link"><img class="photo__img" src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Местная растительность"></a>
+          <a class="photo__link"><div class="photo__img photo__img--photo-cactus"></div></a>
             <figcaption class="photo__inscription">
                 <p class="photo__name text--weight-bold text--size--small text--line-height--24px">Местная растительность</p>
                 <span class="photo__author text--weight-normal text--size--small text--line-height--24px">Автор фото: Сергей</span>
@@ -47,16 +49,16 @@
             </figcaption>
         </figure>
         <figure class="gallery__photo photo">
-          <a class="photo__link"><img class="photo__img" src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север"></a>
-            <figcaption class="photo_inscription">
+          <a class="photo__link"><div class="photo__img photo__img--photo-roads"></div></a>
+            <figcaption class="photo__inscription photo__inscription--left-photo">
                 <p class="photo__name text--weight-bold text--size--small text--line-height--24px">Дорога на север</p>
                 <span class="photo__author text--weight-normal text--size--small text--line-height--24px">Автор фото: Пётр</span>
                 <div class="photo__likes text--weight-bold text--size--small text--line-height--24px">96</div>
             </figcaption>
         </figure>
         <figure class="gallery__photo photo">
-          <a class="photo__link"><img class="photo__img" src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост Дьявола"></a>
-            <figcaption class="photo_inscription">
+          <a class="photo__link"><div class="photo__img photo__img--photo-bridge"></div></a>
+            <figcaption class="photo__inscription">
               <p class="photo__name text--weight-bold text--size--small text--line-height--24px">Мост Дьявола</p>
               <span class="photo__author text--weight-normal text--size--small text--line-height--24px">Автор фото: Антон</span>
               <div class="photo__likes text--weight-bold text--size--small text--line-height--24px">254</div>
