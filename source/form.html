@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="page">
@@ -88,9 +89,9 @@
       </fieldset>
       <fieldset class="form__comment comment">
         <legend class="comment__title text--weight-bold text--size--medium text--line-height--26px">Опишите свои эмоции</legend>
-        <p>
-          <label for="comment"></label>
-          <textarea class="comment__text text--weight-bold text--size--medium text--line-height--26px" name="comment" id="comment" placeholder="Опишите подробно все свои восторги"></textarea>
+          <p>
+            <label for="comment"></label>
+            <textarea class="comment__text text--weight-bold text--size--medium text--line-height--26px" name="comment" id="comment" placeholder="Опишите подробно все свои восторги"></textarea></p>
       </fieldset>
       <label for="send"></label>
       <input class="form__button button text--weight-bold text--size--large text--line-height--26px" name="send" id="send" type="submit" value="Отправить отзыв">
@@ -110,6 +111,19 @@
     <p class="page-footer__powered-by powered-by text--weight-normal text--size--small text--line-height--26px">Разработано
       <a class="powered-by__link" href="https://htmlacademy.ru/intensive/adaptive"><span class="visually-hidden">htmlacademy.ru</span></a></p>
   </footer>
+  <section class="modal-fail">
+      <h2 class="modal-fail__title text--weight-bold text--size--medium text--line-height--26px">Что-то пошло не так!</h2>
+      <p class="modal-fail__text text--weight-normal text--size--small text--line-height--24px">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+      <button class="modal-fail__button button text--weight-bold text--size--large text--line-height--26px">Ок</button>
+  </section>
+  <section class="modal-success">
+      <h2 class="modal-success__title text--weight-bold text--size--medium text--line-height--26px">Ваш отзыв отправлен!</h2>
+      <p class="modal-success__text text--weight-normal text--size--small text--line-height--24px">Спасибо за ваше участие, ваш отзыв уже поступил к нам.
+          В ближайшее время мы опубликуем его на сайте.</p>
+      <div class="modal-success__button-wrapper">
+        <button class="modal-success__button button text--weight-bold text--size--large text--line-height--26px">закрыть окно</button>
+      </div>
+  </section>
 </body>
 
 </html>
