@@ -1,18 +1,5 @@
 .page-header {
-  display: flex;
-  flex-direction: column;
-
-  &--top {
-    display: flex;
-    order: 2;
-    justify-content: center;
-  }
-}
-
-.page-header__nav__list {
-  margin: 0 auto;
-  padding: 0;
-  order: -1;
+  text-align: center;
 }
 
 .page-header__toggle {
@@ -20,4 +7,16 @@
   height: 23px;
   border: none;
   background: url("../img/icon-menu.svg") no-repeat;
+}
+
+.page-header__logo {
+  order: 3;
+  align-self: center;
+  margin-bottom: -27px;
+}
+
+@media (min-width: 768px) {
+  .page-header__logo {
+    order: 0;
+  }
 }

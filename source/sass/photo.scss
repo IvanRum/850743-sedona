@@ -1,16 +1,35 @@
 .photo {
   width: 280px;
-  padding-left: 20px;
-  padding-right: 20px;
   border-top: 1px solid $bordergray;
 }
 
 .photo__img {
   margin-top: 23px;
+  background-size: 280px 280px;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  min-height: 280px;
+
+  &--photo-sunset {
+    background-image: url("../img/photo-sunset-mobile@1x.jpg");
+  }
+
+  &--photo-cactus {
+    background-image: url("../img/photo-cactus-mobile@1x.jpg");
+  }
+
+  &--photo-roads {
+    background-image: url("../img/photo-roads-mobile@1x.jpg");
+  }
+
+  &--photo-bridge {
+    background-image: url("../img/photo-bridge-mobile@1x.jpg");
+  }
 }
 
 .photo__name {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .photo__author {
@@ -19,6 +38,116 @@
   margin-bottom: 5px;
 }
 
-.photo__likes {
-  margin-bottom: 5px;
+@media (min-width: 768px) {
+  .photo {
+    border: none;
+    width: 324px;
+
+    &--top-photo {
+      width: 648px;
+    }
+  }
+
+  .photo__inscription {
+    background-color: $lightgray;
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 53px;
+    justify-content: center;
+
+    &--top-photo {
+      width: 648px;
+    }
+
+    &--left-photo {
+      background-color: $gray2;
+    }
+  }
+
+  .photo__likes {
+    width: 33px;
+    align-self: end;
+  }
+
+  .photo__img {
+    background-size: 324px 267px;
+    width: 324px;
+    min-height: 267px;
+    margin-top: 0;
+
+    &--photo-sunset {
+      background-image: url("../img/photo-sunset-tablet@1x.jpg");
+      background-size: 648px 402px;
+      width: 648px;
+    }
+
+    &--photo-cactus {
+      background-image: url("../img/photo-cactus-tablet@1x.jpg");
+    }
+
+    &--photo-roads {
+      background-image: url("../img/photo-roads-tablet@1x.jpg");
+    }
+
+    &--photo-bridge {
+      background-image: url("../img/photo-bridge-tablet@1x.jpg");
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .photo {
+    width: 400px;
+
+    &--top-photo {
+      width: 1200px;
+    }
+  }
+
+  .photo__inscription {
+    background-color: $blacktrans;
+    width: 400px;
+    margin-top: -53px;
+
+    &--top-photo {
+      width: 1200px;
+    }
+  }
+
+  .photo__name {
+    color: $white;
+  }
+
+  .photo__author {
+    color: $white;
+  }
+
+  .photo__likes {
+    color: $white;
+  }
+
+  .photo__img {
+    background-size: 400px 267px;
+    width: 400px;
+
+    &--photo-sunset {
+      background-image: url("../img/photo-sunset-desktop@1x.jpg");
+      background-size: 1200px 402px;
+      width: 1200px;
+    }
+
+    &--photo-cactus {
+      background-image: url("../img/photo-cactus-desktop@1x.jpg");
+    }
+
+    &--photo-roads {
+      background-image: url("../img/photo-roads-desktop@1x.jpg");
+    }
+
+    &--photo-bridge {
+      background-image: url("../img/photo-bridge-desktop@1x.jpg");
+    }
+  }
 }

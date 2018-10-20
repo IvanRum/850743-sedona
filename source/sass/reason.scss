@@ -1,0 +1,206 @@
+.reason {
+  &--reason-first {
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    min-height: 470px;
+  }
+
+  &--reason-second {
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    min-height: 470px;
+  }
+
+  &--reason-third {
+    border-bottom: 1px solid $bordergray;
+  }
+
+  &--reason-fourth {
+    border-bottom: 1px solid $bordergray;
+  }
+}
+
+.reason__content {
+  margin: 0 auto;
+  min-height: 256px;
+
+  &--background-blue {
+    background-color: $blue;
+  }
+}
+
+.reason__image {
+  background-size: 320px 260px;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
+  min-height: 258px;
+
+  &--image-reason-first {
+    background-image: url("../img/main-city-mobile@1x.jpg");
+  }
+
+  &--image-reason-second {
+    background-image: url("../img/photo-bridge-mobile@1x.jpg");
+  }
+}
+
+.reason__title {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+
+  &--triangle {
+    background: url("../img/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-position: 50% top;
+    background-size: 320px 36px;
+  }
+}
+
+.reason__num {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.reason__text {
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 43px;
+  width: 290px;
+}
+
+@media (min-width: 768px) {
+  .reason {
+    &--reason-first {
+      min-height: 256px;
+      width: 768px;
+      display: flex;
+    }
+
+    &--reason-second {
+      min-height: 256px;
+      width: 768px;
+      display: flex;
+    }
+
+    &--reason-third {
+      text-align: center;
+      width: 33%;
+    }
+
+    &--reason-fourth {
+      text-align: center;
+      width: 33%;
+    }
+
+    &--reason-fifth {
+      text-align: center;
+      width: 33%;
+    }
+  }
+
+  .reason__content {
+    margin: 0 auto;
+    min-height: 256px;
+    width: 33%;
+
+    &--background-blue {
+      background-color: $blue;
+    }
+
+    &--without-photo {
+      width: 100%;
+    }
+  }
+
+  .reason__image {
+    background-size: 516px 267px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    min-height: 258px;
+    width: 67%;
+
+    &--image-reason-first {
+      background-image: url("../img/main-city-tablet@1x.jpg");
+    }
+
+    &--image-reason-second {
+      background-image: url("../img/photo-bridge-tablet@1x.jpg");
+      order: -1;
+    }
+  }
+
+  .reason__title {
+    background: none;
+    line-height: 26px;
+    width: 159px;
+    padding-top: 40px;
+
+    &--triangle {
+      background: none;
+    }
+  }
+
+  .reason__num {
+    margin-top: 18px;
+    margin-bottom: 24px;
+    width: 160px;
+  }
+
+  .reason__text {
+    width: 161px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reason {
+    &--reason-first {
+      min-height: 256px;
+      width: 1200px;
+      display: flex;
+    }
+
+    &--reason-second {
+      min-height: 256px;
+      width: 1200px;
+      display: flex;
+    }
+  }
+
+  .reason__content {
+    &--image-reason-first {
+      background-image: url("../img/main-city-desktop@1x.jpg");
+      background-size: 800px 400px;
+      background-position: 100%;
+      background-repeat: no-repeat;
+    }
+
+    &--image-reason-second {
+      background-image: url("../img/photo-bridge-desktop@1x.jpg");
+      background-size: 800px 400px;
+      background-position: 0%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .reason__image {
+    background-size: 804px 400px;
+
+    &--image-reason-first {
+      background-image: url("../img/main-city-desktop@1x.jpg");
+    }
+
+    &--image-reason-second {
+      background-image: url("../img/photo-bridge-desktop@1x.jpg");
+    }
+  }
+}

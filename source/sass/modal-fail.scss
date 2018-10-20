@@ -1,0 +1,46 @@
+.modal-fail {
+  display: none;
+  position: fixed;
+  top: 15%;
+  left: calc(50% - 160px);
+  background-color: $white;
+  width: 320px;
+  min-height: 301px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 10px 10px $shadowgray;
+}
+
+.modal-fail__title {
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-top: 66px;
+  padding-bottom: 40px;
+  width: 200px;
+}
+
+.modal-fail__text {
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 210px;
+  padding-bottom: 29px;
+}
+
+.modal-fail__button {
+  margin: 0 auto;
+  width: 180px;
+  padding-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .modal-fail {
+    left: calc(50% - 200px);
+    width: 400px;
+    padding-bottom: 50px;
+  }
+
+  .modal-fail__button {
+    margin: 0 auto;
+    width: 271px;
+  }
+}

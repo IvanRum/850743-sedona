@@ -30,8 +30,28 @@
   padding-top: 16px;
   padding-bottom: 16px;
 
+  &--firstname {
+    padding-right: 38px;
+  }
+
   &::placeholder {
     color: $black;
     opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .personal-datas {
+    border: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .personal-datas {
+    width: 400px;
+  }
+
+  .personal-datas__input {
+    width: 290px;
   }
 }

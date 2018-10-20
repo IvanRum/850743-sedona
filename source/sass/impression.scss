@@ -23,7 +23,7 @@
   display: block;
   position: relative;
   padding-left: 70px;
-  margin-bottom: 13px;
+  padding-bottom: 30px;
 
   &::before {
     content: "";
@@ -41,4 +41,10 @@
 
 .impression__choice:checked ~ label::before {
   background-color: $black;
+}
+
+@media (min-width: 768px) {
+  .impression {
+    border: none;
+  }
 }

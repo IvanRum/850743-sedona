@@ -1,0 +1,43 @@
+.features {
+  margin: 0 auto;
+  width: 280px;
+  background-color: $white;
+}
+
+.feature__title {
+  text-transform: uppercase;
+}
+
+.feature__text {
+  text-transform: uppercase;
+  color: $darkgray;
+}
+
+@media (min-width: 768px) {
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+  }
+
+  .features__item {
+    width: 33%;
+    text-align: center;
+  }
+
+  .feature__title {
+    text-align: center;
+  }
+
+  .feature__text {
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .features {
+    width: 1200px;
+  }
+}

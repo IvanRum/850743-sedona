@@ -6,3 +6,22 @@
 .gallery__photo {
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 648px;
+    border: none;
+  }
+
+  .gallery__photo {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery {
+    width: 1200px;
+  }
+}
