@@ -11,6 +11,8 @@
   background-color: $blue;
   border-bottom: 1px solid $border-bottom;
   border-top: 1px solid $border-top;
+  padding-top: 6px;
+  padding-bottom: 8px;
 }
 
 .site-list__item-link {
@@ -34,6 +36,7 @@
     background-color: $white;
     border: none;
     width: 40%;
+    padding: 0;
   }
 
   .site-list__item-link {

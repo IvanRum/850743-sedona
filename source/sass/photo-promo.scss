@@ -16,24 +16,6 @@
   min-height: 210px;
 }
 
-.photo-promo__content {
-  text-transform: uppercase;
-  margin: 0 auto;
-  margin-top: 45px;
-  text-align: center;
-  width: 255px;
-}
-
-.photo-promo__text {
-  text-transform: uppercase;
-  color: $darkgray;
-  margin: 0 auto;
-  text-align: center;
-  width: 278px;
-  margin-top: 40px;
-  padding-bottom: 30px;
-}
-
 @media (min-width: 768px) {
   .photo-promo {
     background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-tablet@1x.jpg");
@@ -47,16 +29,6 @@
 
   .photo-promo__img {
     background-size: 460px 78px;
-  }
-
-  .photo-promo__content {
-    font-size: 30px;
-    line-height: 26px;
-    width: 320px;
-  }
-
-  .photo-promo__text {
-    width: 440px;
   }
 }
 

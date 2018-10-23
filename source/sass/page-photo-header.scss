@@ -1,0 +1,39 @@
+.page-photo-header {
+  background-color: $white;
+}
+
+.page-photo-header__content {
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 45px;
+  text-align: center;
+  width: 255px;
+}
+
+.page-photo-header__text {
+  text-transform: uppercase;
+  color: $darkgray;
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+  margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .page-photo-header__content {
+    font-size: 30px;
+    line-height: 26px;
+    width: 320px;
+  }
+
+  .page-photo-header__text {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-photo-header {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}

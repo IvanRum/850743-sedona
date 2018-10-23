@@ -1,43 +1,177 @@
 .features {
   margin: 0 auto;
-  width: 280px;
   background-color: $white;
+  padding-top: 20px;
+  min-height: 370px;
 }
 
-.feature__title {
+.features__list {
+  list-style: none;
+  margin: 0 auto;
+  width: 280px;
+}
+
+.features__item {
+  margin-bottom: 28px;
+}
+
+.features__title {
   text-transform: uppercase;
+  margin-bottom: 14px;
+  padding-left: 29px;
+
+  &--motel-icon {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -13px;
+      left: -19px;
+      width: 39px;
+      height: 41px;
+      background: url("../img/icon-house.svg") no-repeat;
+      background-size: 39px 41px;
+    }
+  }
+
+  &--burger-icon {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -9px;
+      left: -21px;
+      width: 39px;
+      height: 41px;
+      background: url("../img/icon-burger.svg") no-repeat;
+      background-size: 39px 41px;
+    }
+  }
+
+  &--souvenir-icon {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -14px;
+      left: -19px;
+      width: 40px;
+      height: 41px;
+      background: url("../img/icon-gift.svg") no-repeat;
+      background-size: 40px 41px;
+    }
+  }
 }
 
-.feature__text {
+.features__text {
   text-transform: uppercase;
   color: $darkgray;
+  padding-left: 30px;
+  width: 230px;
 }
 
 @media (min-width: 768px) {
   .features {
+    width: 768px;
+    min-height: 308px;
+  }
+
+  .features__list {
     display: flex;
     flex-wrap: wrap;
     width: 768px;
+    padding: 0;
   }
 
   .features__item {
     width: 33%;
     text-align: center;
+
+    &--eat {
+      order: 2;
+    }
+
+    &--souvenir {
+      order: 3;
+    }
   }
 
-  .feature__title {
+  .features__title {
+    font-size: 21px;
     text-align: center;
+    padding-left: 7px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 137px;
+    margin-bottom: 22px;
+
+    &--motel-icon {
+      position: relative;
+
+      &::before {
+        top: -101px;
+        left: 26px;
+        width: 80px;
+        height: 75px;
+        background-size: 77px 75px;
+      }
+    }
+
+    &--burger-icon {
+      position: relative;
+
+      &::before {
+        top: -102px;
+        left: 30px;
+        width: 78px;
+        height: 79px;
+        background-size: 78px 79px;
+      }
+    }
+
+    &--souvenir-icon {
+      position: relative;
+
+      &::before {
+        top: -101px;
+        left: 30px;
+        width: 80px;
+        height: 75px;
+        background-size: 80px 75px;
+      }
+    }
   }
 
-  .feature__text {
+  .features__text {
     text-align: center;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 50px;
+    width: 158px;
+
+    &--souvenir {
+      width: 162px;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .features {
     width: 1200px;
+  }
+
+  .features__list {
+    width: 1200px;
+  }
+
+  .features__title {
+    margin-bottom: 20px;
+  }
+
+  .features__text {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 0;
   }
 }

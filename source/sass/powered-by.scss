@@ -11,8 +11,8 @@
   &::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -30px;
+    top: -3px;
+    left: -56px;
     width: 28px;
     height: 34px;
     background: url("../img/logo-htmlacademy.svg") no-repeat;
@@ -24,7 +24,7 @@
     margin-left: 40px;
 
     &::before {
-      left: -40px;
+      left: -26px;
     }
   }
 }

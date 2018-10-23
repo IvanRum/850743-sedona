@@ -5,7 +5,7 @@
 .page-main-header__title {
   text-transform: uppercase;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 43px;
   text-align: center;
   width: 255px;
 }
@@ -14,13 +14,16 @@
   text-transform: uppercase;
   color: $darkgray;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 27px;
+  margin-bottom: 3px;
   text-align: center;
   width: 255px;
 }
 
 @media (min-width: 768px) {
   .page-main-header__title {
+    margin-top: 50px;
+    font-size: 21px;
     width: 448px;
     padding-left: 104px;
     padding-right: 104px;
@@ -28,6 +31,7 @@
 
   .page-main-header__text {
     width: 648px;
+    padding-bottom: 51px;
   }
 }
 
@@ -35,5 +39,9 @@
   .page-main-header {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .page-main-header__text {
+    margin-bottom: 0;
   }
 }

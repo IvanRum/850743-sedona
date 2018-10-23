@@ -16,23 +16,6 @@
   min-height: 210px;
 }
 
-.form-promo__content {
-  text-transform: uppercase;
-  margin: 0 auto;
-  margin-top: 45px;
-  text-align: center;
-  width: 255px;
-}
-
-.form-promo__text {
-  text-transform: uppercase;
-  color: $darkgray;
-  margin: 0 auto;
-  text-align: center;
-  width: 280px;
-  margin-top: 40px;
-}
-
 @media (min-width: 768px) {
   .form-promo {
     background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-tablet@1x.jpg");

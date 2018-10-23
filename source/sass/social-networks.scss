@@ -3,7 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
+}
 
+.social-networks__link {
   &--twitter {
     position: relative;
     display: block;
