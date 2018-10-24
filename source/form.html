@@ -33,54 +33,59 @@
     </header>
     <form class="page-form__form form" action="https://echo.htmlacademy.ru" method="post">
       <fieldset class="form__fieldset form__fieldset--personal-data">
-        <legend class="form__legend text text--weight-bold text--size--medium text--line-height--large">Представьтесь:</legend>
+        <legend class="form__legend form__legend--personal-data  text text--weight-bold text--size--medium text--line-height--large">Представьтесь:</legend>
         <div class="form__wrapper">
-          <p class="form__container">
+          <p class="form__container form__container--personal-data">
             <label class="form__label form__label--personal-data text text--weight-normal text--size--small text--line-height--large" for="firstname">имя:</label>
-            <input class="form__input form__input--personal-data form__input--firstname text text--weight-bold text--size--medium text--line-height--large" type="text" name="firstname" id="firstname" placeholder="Петр"> </p>
-          <p class="form__container">
+            <input class="form__input form__input--personal-data form__input--firstname text text--weight-bold text--size--medium text--line-height--large" type="text" name="firstname" id="firstname" placeholder="Петр">
+          </p>
+          <p class="form__container form__container--personal-data">
             <label class="form__label form__label--personal-data text text--weight-normal text--size--small text--line-height--large" for="lastname">фамилия:</label>
-            <input class="form__input form__input--personal-data text text--weight-bold text--size--medium text--line-height--large" type="text" name="lastname" id="lastname" placeholder="Иванов"> </p>
-          <p class="form__container">
+            <input class="form__input form__input--personal-data text text--weight-bold text--size--medium text--line-height--large" type="text" name="lastname" id="lastname" placeholder="Иванов">
+          </p>
+          <p class="form__container form__container--personal-data">
             <label class="form__label form__label--personal-data text text--weight-normal text--size--small text--line-height--large" for="middlename">отчество:</label>
             <input class="form__input form__input--personal-data text text--weight-bold text--size--medium text--line-height--large" type="text" name="middlename" id="middlename" placeholder="Александрович">
           </p>
         </div>
       </fieldset>
       <fieldset class="form__fieldset form__fieldset--contact-information">
-        <legend class="form__legend text text--weight-bold text--size--medium text--line-height--large">Контактная информация:</legend>
+        <legend class="form__legend form__legend--contact-information text text--weight-bold text--size--medium text--line-height--large">Контактная информация:</legend>
         <div class="form__wrapper">
-          <p class="form__container">
+          <p class="form__container form__container--contact-information form__container--phone">
             <label class="form__label form__label--contact-information text text--weight-normal text--size--small text--line-height--large" for="tel">
-              Контактный телефон*:</label>
-            <input class="form__input form__input--contact-information text text--weight-bold text--size--medium text--line-height--large" type="tel" name="tel" id="tel" placeholder="Введите телефон"> </p>
-          <p class="form__container">
+              <span class="form__label form__label--hide">Контактный</span> телефон*:</label>
+            <input class="form__input form__input--contact-information text text--weight-bold text--size--medium text--line-height--large" type="tel" name="tel" id="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{7}" placeholder="Введите телефон">
+            <span class="form__icon form__icon--phone"></span>
+          </p>
+          <p class="form__container form__container--contact-information form__container--mail">
             <label class="form__label form__label--contact-information text text--weight-normal text--size--small text--line-height--large" for="email">
               Электронная почта*:</label>
             <input class="form__input form__input--contact-information text text--weight-bold text--size--medium text--line-height--large" type="email" name="email" id="email" placeholder="Введите e-mail">
+            <span class="form__icon form__icon--mail"></span>
           </p>
         </div>
       </fieldset>
       <fieldset class="form__fieldset form__fieldset--impression">
-        <legend class="form__legend text text--weight-bold text--size--medium text--line-height--large">Ваше общее впечатление</legend>
+        <legend class="form__legend form__legend--impression text text--weight-bold text--size--medium text--line-height--large">Ваше общее впечатление:</legend>
         <div class="form__wrapper">
-          <p class="form__container">
+          <p class="form__container form__container--impression">
             <input class="form__input form__input--radio" type=radio name="radio" id="positive" checked>
             <label class="form__label form__label--radio text text--weight-bold text--size--medium text--line-height--large" for="positive" tabindex="0">
               Скорее положительное</label></p>
-          <p class="form__container">
+          <p class="form__container form__container--impression">
             <input class="form__input form__input--radio" type=radio name="radio" id="negative">
             <label class="form__label form__label--radio text text--weight-bold text--size--medium text--line-height--large" for="negative" tabindex="0">
               Скорее отрицательное</label></p>
-          <p class="form__container">
+          <p class="form__container form__container--impression">
             <input class="form__input form__input--radio" type=radio name="radio" id="complicated">
             <label class="form__label form__label--radio text text--weight-bold text--size--medium text--line-height--large" for="complicated" tabindex="0">
               Затрудняюсь ответить</label></p>
         </div>
       </fieldset>
       <fieldset class="form__fieldset form__fieldset--landmarks">
-        <legend class="form__legend text text--weight-bold text--size--medium text--line-height--large">Посещенные достопримечательности</legend>
-        <div class="form__wrapper">
+        <legend class="form__legend form__legend--landmarks text text--weight-bold text--size--medium text--line-height--large">Посещенные достопримечательности:</legend>
+        <div class="form__wrapper form__wrapper--landmarks">
           <p class="form__container">
             <input class="form__input form__input--checkbox" type=checkbox name="devilsbridge" id="devilsbridge" checked>
             <label class="form__label form__label--checkbox text text--weight-bold text--size--medium text--line-height--large" for="devilsbridge" tabindex="0">
@@ -100,14 +105,14 @@
         </div>
       </fieldset>
       <fieldset class="form__fieldset form__fieldset--comment">
-        <legend class="form__legend text text--weight-bold text--size--medium text--line-height--large">Опишите свои эмоции</legend>
+        <legend class="form__legend form__legend--comment text text--weight-bold text--size--medium text--line-height--large">Опишите свои эмоции:</legend>
         <p class="form__container">
           <label class="form__label form__label--comment" for="comment"></label>
           <textarea class="form__textarea form__textarea--comment text text--weight-bold text--size--medium text--line-height--large" name="comment" id="comment" placeholder="Опишите подробно все свои восторги"></textarea></p>
       </fieldset>
       <label class="form__label" for="send"></label>
       <input class="form__button button text text--weight-bold text--size--large text--line-height--large" name="send" id="send" type="submit" value="Отправить отзыв">
-      <span class="form__asterisk">* — обязательные поля</span>
+      <span class="form__asterisk text text--weight-normal text--size--small text--line-height--large">* — обязательные поля</span>
     </form>
   </main>
   <footer class="page__footer page-footer">
