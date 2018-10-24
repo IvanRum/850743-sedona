@@ -1,7 +1,7 @@
 .video-gallery__title {
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 45px;
+  padding-top: 34px;
   text-align: center;
   width: 320px;
 }
@@ -11,8 +11,9 @@
   color: $darkgray;
   margin: 0 auto;
   text-align: center;
-  width: 280px;
-  margin-top: 40px;
+  width: 265px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .video-gallery__clip {
@@ -28,8 +29,16 @@
 }
 
 @media (min-width: 768px) {
+  .video-gallery__title {
+    font-size: 30px;
+    width: 351px;
+    padding-top: 69px;
+  }
+
   .video-gallery__text {
-    width: 375px;
+    width: 415px;
+    margin-top: 30px;
+    margin-bottom: 73px;
   }
 
   .video-gallery__clip {
@@ -51,5 +60,6 @@
     background-image: url("../img/video-desktop@1x.jpg");
     width: 800px;
     background-size: 800px 500px;
+    margin-bottom: 44px;
   }
 }

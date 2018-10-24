@@ -5,7 +5,7 @@
 .page-photo-header__content {
   text-transform: uppercase;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 38px;
   text-align: center;
   width: 255px;
 }
@@ -15,19 +15,23 @@
   color: $darkgray;
   margin: 0 auto;
   text-align: center;
-  width: 280px;
-  margin-top: 40px;
+  width: 275px;
+  margin-top: 26px;
+  margin-bottom: 27px;
 }
 
 @media (min-width: 768px) {
   .page-photo-header__content {
     font-size: 30px;
-    line-height: 26px;
-    width: 320px;
+    width: 325px;
+    letter-spacing: 0.4;
+    margin-top: 74px;
   }
 
   .page-photo-header__text {
-    width: 440px;
+    margin-top: 30px;
+    width: 444px;
+    letter-spacing: 0.1;
   }
 }
 
@@ -35,5 +39,14 @@
   .page-photo-header {
     width: 1200px;
     margin: 0 auto;
+  }
+
+  .page-photo-header__content {
+    margin-top: 112px;
+  }
+
+  .page-photo-header__text {
+    margin-bottom: 0;
+    padding-bottom: 71px;
   }
 }
