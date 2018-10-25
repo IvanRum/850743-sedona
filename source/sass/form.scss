@@ -206,8 +206,20 @@
   background: $lightgray  url("../img/icon-tick.svg") no-repeat;
 }
 
+.form__input--checkbox:checked ~ label:hover::before {
+  background-color: $gray3;
+}
+
+.form__input--checkbox:checked ~ label:active::before {
+  background-color: $gray5;
+}
+
 .form__input--radio:checked ~ label::before {
   background-color: $black;
+}
+
+.form__input--radio:checked ~ label:active::before {
+  background: $gray6;
 }
 
 .form__icon {
