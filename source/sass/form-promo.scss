@@ -13,24 +13,7 @@
   background-repeat: no-repeat;
   background-size: 230px 39px;
   background-position: 50%;
-  min-height: 210px;
-}
-
-.form-promo__content {
-  text-transform: uppercase;
-  margin: 0 auto;
-  margin-top: 45px;
-  text-align: center;
-  width: 255px;
-}
-
-.form-promo__text {
-  text-transform: uppercase;
-  color: $darkgray;
-  margin: 0 auto;
-  text-align: center;
-  width: 280px;
-  margin-top: 40px;
+  min-height: 144px;
 }
 
 @media (min-width: 768px) {
@@ -45,7 +28,8 @@
   }
 
   .form-promo__img {
-    background-size: 460px 78px;
+    background-size: 490px 80px;
+    padding-top: 123px;
   }
 
   .form-promo__content {
@@ -68,5 +52,9 @@
     background-position: 50% bottom;
     text-align: center;
     width: 1200px;
+  }
+
+  .form-promo__img {
+    padding-top: 137px;
   }
 }

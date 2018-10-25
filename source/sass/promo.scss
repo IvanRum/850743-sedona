@@ -2,14 +2,14 @@
   background: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-color: $backgroundblue;
-  min-height: 378px;
+  min-height: 389px;
   background-position: 50% bottom;
   text-align: center;
 }
 
 .promo__img {
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 95px;
   background: url("../img/text-sedona-index.svg");
   background-repeat: no-repeat;
   background-size: 280px 210px;
@@ -29,8 +29,8 @@
   }
 
   .promo__img {
-    background-size: 460px 340px;
-    padding-top: 210px;
+    background-size: 460px 350px;
+    padding-top: 216px;
   }
 }
 

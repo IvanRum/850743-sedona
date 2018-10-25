@@ -27,9 +27,9 @@
 }
 
 .modal-success__button-wrapper {
- background-color: $lightgray;
- padding-top: 20px;
- padding-bottom: 20px;
+  background-color: $lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .modal-success__button {
@@ -42,12 +42,13 @@
     left: calc(50% - 324px);
     width: 648px;
   }
+
   .modal-success__title {
     width: 351px;
   }
 
   .modal-success__text {
-   width: 416px;
+    width: 416px;
   }
 
   .modal-success__button {

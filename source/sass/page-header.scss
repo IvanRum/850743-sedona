@@ -18,5 +18,13 @@
 @media (min-width: 768px) {
   .page-header__logo {
     order: 0;
+    margin-top: -5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header__logo {
+    margin-top: -5px;
+    margin-bottom: -39;
   }
 }

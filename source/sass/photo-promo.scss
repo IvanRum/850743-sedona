@@ -13,25 +13,7 @@
   background-repeat: no-repeat;
   background-size: 230px 39px;
   background-position: 50%;
-  min-height: 210px;
-}
-
-.photo-promo__content {
-  text-transform: uppercase;
-  margin: 0 auto;
-  margin-top: 45px;
-  text-align: center;
-  width: 255px;
-}
-
-.photo-promo__text {
-  text-transform: uppercase;
-  color: $darkgray;
-  margin: 0 auto;
-  text-align: center;
-  width: 278px;
-  margin-top: 40px;
-  padding-bottom: 30px;
+  min-height: 144px;
 }
 
 @media (min-width: 768px) {
@@ -46,7 +28,8 @@
   }
 
   .photo-promo__img {
-    background-size: 460px 78px;
+    background-size: 490px 80px;
+    padding-top: 123px;
   }
 
   .photo-promo__content {
@@ -69,5 +52,9 @@
     background-position: 50% bottom;
     text-align: center;
     width: 1200px;
+  }
+
+  .photo-promo__img {
+    padding-top: 137px;
   }
 }

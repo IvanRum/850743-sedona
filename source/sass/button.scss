@@ -1,6 +1,5 @@
 .button {
   display: block;
-  margin: 0 auto;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -9,8 +8,20 @@
   padding-top: 16px;
   padding-bottom: 16px;
   width: 280px;
-  margin-top: 40px;
   border: none;
+
+  &:hover {
+    background-color: $blue2;
+  }
+
+  &:active {
+    background-color: $darkblue;
+    color: $blue;
+  }
+
+  &--disabled {
+    background-color: $gray3;
+  }
 }
 
 
