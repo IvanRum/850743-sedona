@@ -9,6 +9,19 @@
   padding-bottom: 16px;
   width: 280px;
   border: none;
+
+  &:hover {
+    background-color: $blue2;
+  }
+
+  &:active {
+    background-color: $darkblue;
+    color: $blue;
+  }
+
+  &--disabled {
+    background-color: $gray3;
+  }
 }
 
 
