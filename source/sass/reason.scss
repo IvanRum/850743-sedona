@@ -37,11 +37,25 @@
   &--image-reason-first {
     background-image: url("../img/main-city-mobile@1x.jpg");
     background-size: 320px 257px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background: url("../img/main-city-mobile@2x.jpg");
+      background-size: 320px 257px;
+      background-repeat: no-repeat;
+      background-position: 50% bottom;
+    }
   }
 
   &--image-reason-second {
     background-image: url("../img/photo-bridge-mobile@1x.jpg");
     background-size: 320px 340px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background: url("../img/photo-bridge-mobile@2x.jpg");
+      background-size: 320px auto;
+      background-repeat: no-repeat;
+      background-position: 50% bottom;
+    }
   }
 }
 
@@ -140,6 +154,11 @@
     &--image-reason-first {
       background-image: url("../img/main-city-tablet@1x.jpg");
       background-size: 516px 267px;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background: url("../img/main-city-tablet@2x.jpg");
+        background-size: 516px 267px;
+      }
     }
 
     &--image-reason-second {
@@ -147,6 +166,12 @@
       background-size: 516px 340px;
       background-position: 100% 100%;
       order: -1;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background: url("../img/photo-bridge-tablet@2x.jpg");
+        background-size: 516px 340px;
+        background-position: 100% 100%;
+      }
     }
   }
 
@@ -219,20 +244,6 @@
 
   .reason__content {
     min-height: 225px;
-
-    &--image-reason-first {
-      background-image: url("../img/main-city-desktop@1x.jpg");
-      background-size: 800px 400px;
-      background-position: 100%;
-      background-repeat: no-repeat;
-    }
-
-    &--image-reason-second {
-      background-image: url("../img/photo-bridge-desktop@1x.jpg");
-      background-size: 800px 400px;
-      background-position: 0%;
-      background-repeat: no-repeat;
-    }
   }
 
   .reason__title {
@@ -264,10 +275,21 @@
 
     &--image-reason-first {
       background-image: url("../img/main-city-desktop@1x.jpg");
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background: url("../img/main-city-desktop@2x.jpg");
+        background-size: 804px 400px;
+      }
     }
 
     &--image-reason-second {
       background-image: url("../img/photo-bridge-desktop@1x.jpg");
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background: url("../img/photo-bridge-desktop@2x.jpg");
+        background-size: 804px 400px;
+        background-position: 100% 100%;
+      }
     }
   }
 

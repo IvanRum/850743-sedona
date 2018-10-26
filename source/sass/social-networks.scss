@@ -6,6 +6,18 @@
 }
 
 .social-networks__link {
+  &:hover {
+    background-color: $blue2;
+  }
+
+  &:focus {
+    background-color: $blue2;
+  }
+
+  &:active {
+    background-color: $darkblue;
+  }
+
   &--twitter {
     position: relative;
     display: block;
