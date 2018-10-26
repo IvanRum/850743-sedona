@@ -100,6 +100,11 @@
       border: 17px solid $gray3;
     }
 
+    &:focus::before {
+      background-color: $gray3;
+      border: 17px solid $gray3;
+    }
+
     &:active::before {
       background-color: $gray5;
       border: 17px solid $gray5;
@@ -126,6 +131,11 @@
     }
 
     &:hover::before {
+      background-color: $gray3;
+      border: 17px solid $gray3;
+    }
+
+    &:focus::before {
       background-color: $gray3;
       border: 17px solid $gray3;
     }

@@ -2,17 +2,36 @@
   text-align: center;
 }
 
+.page-header__nav {
+  position: relative;
+}
+
 .page-header__toggle {
+  display: none;
+  position: absolute;
   width: 23px;
   height: 23px;
   border: none;
   background: url("../img/icon-menu.svg") no-repeat;
+  top: 14px;
+  background-position: 50% bottom;
+  align-self: flex-end;
+  padding-right: 47px;
+  padding-left: 47px;
+
+  &--opened {
+    background: url("../img/icon-cross.svg") no-repeat;
+    top: 17px;
+    padding-left: 21px;
+    padding-right: 21px;
+  }
 }
 
 .page-header__logo {
   order: 3;
   align-self: center;
   margin-bottom: -27px;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
