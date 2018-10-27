@@ -31,13 +31,11 @@
   }
 }
 
-.photo-promo__img {
+.photo-promo__img svg {
   margin: 0 auto;
-  background: url("../img/text-sedona.svg");
-  background-repeat: no-repeat;
-  background-size: 230px 39px;
-  background-position: 50%;
-  min-height: 144px;
+  padding-top: 53px;
+  width: 230px;
+  height: 39px;
 }
 
 @media (min-width: 768px) {
@@ -65,9 +63,10 @@
     }
   }
 
-  .photo-promo__img {
-    background-size: 490px 80px;
-    padding-top: 123px;
+  .photo-promo__img svg {
+    padding-top: 93px;
+    width: 490px;
+    height: 80px;
   }
 
   .photo-promo__content {
@@ -106,7 +105,7 @@
     }
   }
 
-  .photo-promo__img {
-    padding-top: 137px;
+  .photo-promo__img svg {
+    padding-top: 102px;
   }
 }
