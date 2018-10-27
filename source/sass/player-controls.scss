@@ -41,34 +41,58 @@
   }
 }
 
-.player-controls__button {
+.player-controls__replay svg {
   position: absolute;
-  background: url("../img/icon-video-replay.svg");
   background-repeat: no-repeat;
   width: 16px;
   height: 20px;
   top: 22px;
   left: 25px;
+  fill: $navy;
+
+  &:hover {
+    fill: $darkgray;
+  }
+
+  &:active {
+    fill: $gray4;
+  }
 }
 
-.player-controls__cc {
+.player-controls__subtitles svg {
   position: absolute;
-  background: url("../img/icon-video-subtitles.svg");
   background-repeat: no-repeat;
   width: 33px;
   height: 20px;
   top: 23px;
   left: 174px;
+  fill: $navy;
+
+  &:hover {
+    fill: $darkgray;
+  }
+
+  &:active {
+    fill: $gray4;
+  }
 }
 
-.player-controls__fullscreen {
+.player-controls__fullscreen svg {
   position: absolute;
-  background: url("../img/icon-video-fullscreen.svg");
   background-repeat: no-repeat;
   width: 33px;
   height: 20px;
   top: 23px;
   left: 237px;
+  fill: $navy;
+
+  &:hover {
+    fill: $darkgray;
+  }
+
+  &:active {
+    fill: $gray4;
+  }
 }
 
 @media (min-width: 768px) {
@@ -93,19 +117,46 @@
     }
   }
 
-  .player-controls__button {
+  .player-controls__replay svg {
     top: -57px;
     left: -149px;
+    fill: $white;
+
+    &:hover {
+      fill: $gray8;
+    }
+
+    &:active {
+      fill: $gray6;
+    }
   }
 
-  .player-controls__cc {
+  .player-controls__subtitles svg {
     top: -57px;
     left: 340px;
+    fill: $white;
+
+    &:hover {
+      fill: $gray8;
+    }
+
+    &:active {
+      fill: $gray6;
+    }
   }
 
-  .player-controls__fullscreen {
+  .player-controls__fullscreen svg {
     top: -57px;
     left: 396px;
+    fill: $white;
+
+    &:hover {
+      fill: $gray8;
+    }
+
+    &:active {
+      fill: $gray6;
+    }
   }
 }
 
@@ -123,15 +174,15 @@
     }
   }
 
-  .player-controls__button {
+  .player-controls__replay svg {
     left: -226px;
   }
 
-  .player-controls__cc {
+  .player-controls__subtitles svg {
     left: 415px;
   }
 
-  .player-controls__fullscreen {
+  .player-controls__fullscreen svg {
     left: 477px;
   }
 }

@@ -81,34 +81,6 @@
     padding-left: 78px;
     margin-bottom: 13px;
     height: 35px;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: -12px;
-      left: 0;
-      display: block;
-      width: 22px;
-      height: 22px;
-      background: $lightgray;
-      border: 17px solid $lightgray;
-      border-radius: 5px;
-    }
-
-    &:hover::before {
-      background-color: $gray3;
-      border: 17px solid $gray3;
-    }
-
-    &:focus::before {
-      background-color: $gray3;
-      border: 17px solid $gray3;
-    }
-
-    &:active::before {
-      background-color: $gray5;
-      border: 17px solid $gray5;
-    }
   }
 
   &--radio {
@@ -151,6 +123,39 @@
     color: $darkgray;
     padding-left: 20px;
     margin-bottom: 13px;
+  }
+}
+
+.form__label--checkbox svg {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: $lightgray;
+  border: 17px solid $lightgray;
+  border-radius: 5px;
+  fill: $lightgray;
+
+
+  &:hover {
+    background-color: $gray3;
+    border: 17px solid $gray3;
+    fill: $gray3;
+  }
+
+  &:focus {
+    background-color: $gray3;
+    border: 17px solid $gray3;
+    fill: $gray3;
+  }
+
+  &:active {
+    background-color: $gray5;
+    border: 17px solid $gray5;
+    fill: $gray5;
   }
 }
 
@@ -212,16 +217,13 @@
   }
 }
 
-.form__input--checkbox:checked ~ label::before {
-  background: $lightgray  url("../img/icon-tick.svg") no-repeat;
+
+.form__input--checkbox:checked ~ label svg {
+  fill: $darkgray;
 }
 
-.form__input--checkbox:checked ~ label:hover::before {
-  background-color: $gray3;
-}
-
-.form__input--checkbox:checked ~ label:active::before {
-  background-color: $gray5;
+.form__input--checkbox:checked ~ label:active svg {
+  fill: $gray6;
 }
 
 .form__input--radio:checked ~ label::before {
@@ -244,28 +246,22 @@
   background-color: $gray3;
   margin-left: 221px;
 
-  &--phone {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 20px;
-      left: 21px;
-      width: 26px;
-      height: 20px;
-      background: url("../img/icon-phone.svg") no-repeat;
-    }
+  &--phone svg {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    width: 26px;
+    height: 20px;
   }
 
-  &--mail {
-    &::before {
-      content: "";
-      position: absolute;
-      top: 20px;
-      left: 21px;
-      width: 26px;
-      height: 20px;
-      background: url("../img/icon-mail.svg") no-repeat;
-    }
+  &--mail svg {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    width: 26px;
+    height: 20px;
   }
 }
 
@@ -424,10 +420,6 @@
       height: 45px;
       text-align: left;
       padding-left: 110px;
-
-      &::before {
-        left: 31px;
-      }
     }
 
     &--radio {
@@ -437,6 +429,10 @@
         left: -5;
       }
     }
+  }
+
+  .form__label--checkbox svg {
+    left: 31px;
   }
 
   .form__icon {
@@ -561,10 +557,6 @@
     &--checkbox {
       width: 100%;
       padding-left: 80px;
-
-      &::before {
-        left: 0;
-      }
     }
 
     &--radio {
@@ -578,6 +570,10 @@
     &--hide {
       display: none;
     }
+  }
+
+  .form__label--checkbox svg {
+    left: 1px;
   }
 
   .form__input {
