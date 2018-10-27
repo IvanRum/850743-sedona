@@ -7,24 +7,31 @@
 .powered-by__link {
   position: relative;
   margin-left: 70px;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: -3px;
-    left: -56px;
-    width: 28px;
-    height: 34px;
-    background: url("../img/logo-htmlacademy.svg") no-repeat;
-  }
+.powered-by__link svg {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -56px;
+  width: 28px;
+  height: 34px;
 }
 
 @media (min-width: 768px) {
   .powered-by__link {
     margin-left: 40px;
+  }
 
-    &::before {
-      left: -26px;
+  .powered-by__link svg {
+    left: -26px;
+
+    &:hover {
+      fill: $blue;
+    }
+
+    &:active {
+      fill: $gray4;
     }
   }
 }

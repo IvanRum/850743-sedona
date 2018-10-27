@@ -32,15 +32,11 @@
   }
 }
 
-.promo__img {
-  position: relative;
+.promo__img svg {
   margin: 0 auto;
+  width: 280px;
+  height: 210px;
   padding-top: 95px;
-  background: url("../img/text-sedona-index.svg");
-  background-repeat: no-repeat;
-  background-size: 280px 210px;
-  background-position: 50% bottom;
-  min-height: 210px;
 }
 
 @media (min-width: 768px) {
@@ -68,9 +64,10 @@
     }
   }
 
-  .promo__img {
-    background-size: 460px 350px;
-    padding-top: 216px;
+  .promo__img svg {
+    width: 460px;
+    height: 350px;
+    padding-top: 78px;
   }
 }
 
