@@ -258,7 +258,17 @@
         <h2 class="visually-hidden">Фотогалерея</h2>
         <figure class="gallery__photo photo photo--top-photo">
           <a class="photo__link">
-            <div class="photo__img photo__img--photo-sunset" tabindex="0"></div>
+            <div class="photo__img-wrapper photo__img-wrapper--photo-sunset" tabindex="0">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="../img/photo-sunset-desktop@1x.webp 1x, ../img/photo-sunset-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="../img/photo-sunset-tablet@1x.webp 1x, ../img/photo-sunset-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="../img/photo-sunset-mobile@1x.webp 1x, ../img/photo-sunset-mobile@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)" srcset="../img/photo-sunset-desktop@1x.jpg 1x, ../img/photo-sunset-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="../img/photo-sunset-tablet@1x.jpg 1x, ../img/photo-sunset-tablet@2x.jpg 2x">
+                  <img class="photo__img photo__img--photo-sunset" src="../img/photo-sunset-mobile@1x.jpg" srcset="../img/photo-sunset-mobile@2x.jpg 2x" alt="Неродные просторы">
+                </picture>
+            </div>
           </a>
           <figcaption class="photo__inscription photo__inscription--top-photo">
             <p class="photo__name text text--weight-bold text--size--small text--line-height--big">Неродные просторы</p>
@@ -273,7 +283,17 @@
         </figure>
         <figure class="gallery__photo photo">
           <a class="photo__link">
-            <div class="photo__img photo__img--photo-cactus" tabindex="0"></div>
+            <div class="photo__img-wrapper" tabindex="0">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="../img/photo-cactus-desktop@1x.webp 1x, ../img/photo-cactus-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="../img/photo-cactus-tablet@1x.webp 1x, ../img/photo-cactus-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="../img/photo-cactus-mobile@1x.webp 1x, ../img/photo-cactus-mobile@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)" srcset="../img/photo-cactus-desktop@1x.jpg 1x, ../img/photo-cactus-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="../img/photo-cactus-tablet@1x.jpg 1x, ../img/photo-cactus-tablet@2x.jpg 2x">
+                  <img class="photo__img photo__img--photo-cactus" src="../img/photo-cactus-mobile@1x.jpg" srcset="../img/photo-cactus-mobile@2x.jpg 2x" alt="Местная растительность">
+                </picture>
+            </div>
           </a>
           <figcaption class="photo__inscription">
             <p class="photo__name text text--weight-bold text--size--small text--line-height--big">Местная растительность</p>
@@ -288,7 +308,17 @@
         </figure>
         <figure class="gallery__photo photo">
           <a class="photo__link">
-            <div class="photo__img photo__img--photo-roads" tabindex="0"></div>
+            <div class="photo__img-wrapper" tabindex="0">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="../img/photo-roads-desktop@1x.webp 1x, ../img/photo-roads-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="../img/photo-roads-tablet@1x.webp 1x, ../img/photo-roads-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="../img/photo-roads-mobile@1x.webp 1x, ../img/photo-roads-mobile@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)" srcset="../img/photo-roads-desktop@1x.jpg 1x, ../img/photo-roads-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="../img/photo-roads-tablet@1x.jpg 1x, ../img/photo-roads-tablet@2x.jpg 2x">
+                  <img class="photo__img photo__img--photo-roads" src="../img/photo-roads-mobile@1x.jpg" srcset="../img/photo-roads-mobile@2x.jpg 2x" alt="Дорога на север">
+                </picture>
+            </div>
           </a>
           <figcaption class="photo__inscription photo__inscription--left-photo">
             <p class="photo__name text text--weight-bold text--size--small text--line-height--big">Дорога на север</p>
@@ -303,7 +333,17 @@
         </figure>
         <figure class="gallery__photo photo">
           <a class="photo__link">
-            <div class="photo__img photo__img--photo-bridge" tabindex="0"></div>
+            <div class="photo__img-wrapper" tabindex="0">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)" srcset="../img/photo-bridge-desktop@1x.webp 1x, ../img/photo-bridge-desktop@2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)" srcset="../img/photo-bridge-tablet@1x.webp 1x, ../img/photo-bridge-tablet@2x.webp 2x">
+                  <source type="image/webp" srcset="../img/photo-bridge-mobile@1x.webp 1x, ../img/photo-bridge-mobile@2x.webp 2x">
+
+                  <source media="(min-width: 1200px)" srcset="../img/photo-bridge-desktop@1x.jpg 1x, ../img/photo-bridge-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="../img/photo-bridge-tablet@1x.jpg 1x, ../img/photo-bridge-tablet@2x.jpg 2x">
+                  <img class="photo__img photo__img--photo-bridge" src="../img/photo-bridge-mobile@1x.jpg" srcset="../img/photo-bridge-mobile@2x.jpg 2x" alt="Мост Дьявола">
+                </picture>
+            </div>
           </a>
           <figcaption class="photo__inscription">
             <p class="photo__name text text--weight-bold text--size--small text--line-height--big">Мост Дьявола</p>
@@ -322,7 +362,17 @@
         <h3 class="video-gallery__title text text--weight-bold text--size--medium text--line-height--large">Все еще сомневаетесь?</h3>
         <p class="video-gallery__text text text--weight-normal text--size--small text--line-height--big">
           Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-        <div class="video-gallery__clip"></div>
+        <div class="video-gallery__clip-wrapper">
+          <picture>
+            <source type="image/webp" media="(min-width: 1200px)" srcset="../img/video-desktop@1x.webp 1x, ../img/video-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="../img/video-tablet@1x.webp 1x, ../img/video-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="../img/video-mobile@1x.webp 1x, ../img/video-mobile@2x.webp 2x">
+
+            <source media="(min-width: 1200px)" srcset="../img/video-desktop@1x.jpg 1x, ../img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="../img/video-tablet@1x.jpg 1x, ../img/video-tablet@2x.jpg 2x">
+            <img class="video-gallery__clip" src="../img/video-mobile@1x.jpg" srcset="../img/video-mobile@2x.jpg 2x">
+          </picture>
+        </div>
         <div class="player-controls">
           <div class="player-controls__bar"></div>
           <div class="player-controls__replay">
