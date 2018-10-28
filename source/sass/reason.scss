@@ -84,6 +84,14 @@
   margin: 0 auto;
   margin-bottom: 17px;
   margin-top: 14px;
+
+  &::before {
+    content: "- ";
+  }
+
+  &::after {
+    content: " -";
+  }
 }
 
 .reason__text {
