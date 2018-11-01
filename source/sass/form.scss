@@ -20,7 +20,7 @@
 
   &--comment {
     align-items: center;
-    padding-bottom: 37px;
+    padding-bottom: 30px;
   }
 
   &--contact-information {
@@ -176,8 +176,8 @@
     background-color: $lightgray;
     color: $black;
     padding-left: 17px;
-    margin-left: 16px;
-    width: 191px;
+    margin-left: 14px;
+    width: 166px;
     padding-top: 12px;
     padding-bottom: 12px;
     border: 4px solid $lightgray;
@@ -189,7 +189,7 @@
   }
 
   &--firstname {
-    width: 228px;
+    width: 204px;
   }
 
   &--checkbox {
@@ -203,11 +203,12 @@
   &--contact-information {
     background-color: $lightgray;
     color: $black;
-    width: 279px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    width: 252px;
+    height: 24px;
+    padding-top: 14px;
+    padding-bottom: 13px;
     padding-left: 19px;
-    margin-top: 7px;
+    margin-top: 5px;
     border: 4px solid $lightgray;
 
     &::placeholder {
@@ -240,11 +241,12 @@
   margin: 0;
   margin-top: -58px;
   padding: 0;
-  width: 57px;
+  width: 58px;
   height: 58px;
   color: $white;
   background-color: $gray3;
   margin-left: 221px;
+
 
   &--phone svg {
     content: "";
@@ -252,7 +254,7 @@
     top: 20px;
     left: 18px;
     width: 26px;
-    height: 20px;
+    height: 17px;
   }
 
   &--mail svg {
@@ -261,15 +263,15 @@
     top: 20px;
     left: 18px;
     width: 26px;
-    height: 20px;
+    height: 16px;
   }
 }
 
 .form__textarea {
   outline: none;
   color: $black;
-  width: 280px;
-  min-height: 155px;
+  width: 253px;
+  min-height: 139px;
   background-color: $lightgray;
   padding-left: 17px;
   padding-top: 8px;
@@ -297,7 +299,7 @@
 
 .form__button {
   margin: 0 auto;
-  margin-bottom: 39px;
+  margin-bottom: 42px;
 }
 
 .form__asterisk {
@@ -313,8 +315,11 @@
   }
 
   .form__fieldset {
+    width: 648px;
+
     &--personal-data {
       border: none;
+      width: 380px;
     }
 
     &--landmarks {
@@ -327,26 +332,28 @@
     &--impression {
       order: -1;
       border: none;
+      width: 380px;
+      height: 280px;
+      border-right: 1px solid #e5e5e5;
     }
 
     &--comment {
       border-top: 1px solid $bordergray;
-      margin: 0 auto;
-      padding-bottom: 44px;
+      padding-bottom: 39px;
     }
 
     &--contact-information {
       width: 648px;
       border-top: 1px solid $bordergray;
       border-bottom: none;
-      margin-top: 31px;
+      margin-top: 46px;
     }
   }
 
   .form__legend {
     margin: 0 auto;
     font-size: 21px;
-    padding-top: 75px;
+    padding-top: 0;
     padding-bottom: 40px;
 
     &--personal-data {
@@ -355,7 +362,10 @@
     }
 
     &--impression {
-      padding-bottom: 57px;
+      margin-bottom: 57px;
+      padding-bottom: 0;
+      padding-left: 8px;
+      width: 285px;
     }
 
     &--contact-information {
@@ -374,7 +384,7 @@
     &--comment {
       padding-top: 12px;
       padding-bottom: 12px;
-      margin-bottom: 32px;
+      margin-bottom: 5px;
       width: 390px;
     }
   }
@@ -402,15 +412,15 @@
 
   .form__input {
     &--personal-data {
-      width: 178px;
+      width: 156px;
     }
 
     &--contact-information {
-      width: 648px;
+      width: 621px;
     }
 
     &--firstname {
-      width: 216px;
+      width: 192px;
     }
   }
 
@@ -422,11 +432,16 @@
       padding-left: 110px;
     }
 
+    &--contact-information {
+      padding-left: 22px;
+    }
+
     &--radio {
       padding-left: 70px;
 
       &::before {
-        left: -5;
+        top: -13px;
+        left: -5px;
       }
     }
   }
@@ -439,8 +454,15 @@
     margin-left: 592px;
   }
 
+  .form__icon svg {
+    top: 22px;
+    left: 16px;
+  }
+
   .form__textarea {
-    width: 648px;
+    width: 621px;
+    margin-top: 26px;
+    padding-top: 9px;
   }
 
   .form__button {
@@ -448,6 +470,7 @@
     margin-left: 59px;
     margin-top: 0;
     margin-right: 163px;
+    padding-left: 0;
   }
 
   .form__asterisk {
@@ -477,11 +500,12 @@
 
     &--landmarks {
       width: 960px;
-      padding-bottom: 31px;
+      padding-bottom: 33px;
     }
 
     &--impression {
       width: 480px;
+      height: 221px;
       border-right: 1px solid #e5e5e5;
       margin-left: 61px;
       padding-right: 60px;
@@ -491,7 +515,7 @@
     &--contact-information {
       width: 940px;
       margin-left: 120px;
-      padding-bottom: 20px;
+      padding-bottom: 60px;
     }
 
     &--comment {
@@ -512,22 +536,23 @@
     &--impression {
       width: 400px;
       padding-left: 10px;
+      margin-bottom: 0;
     }
 
     &--personal-data {
-      width: 448px;
+      width: 444px;
     }
 
     &--contact-information {
-      margin-bottom: 51px;
+      padding-left: 19px;
     }
 
     &--landmarks {
-      margin-bottom: 40px;
+      margin-bottom: 39px;
     }
 
     &--comment {
-      margin-bottom: 46px;
+      margin-bottom: 0;
     }
   }
 
@@ -536,6 +561,7 @@
 
     &--personal-data {
       width: 445px;
+      height: 46px;
     }
 
     &--contact-information {
@@ -578,15 +604,16 @@
 
   .form__input {
     &--personal-data {
-      width: 310px;
+      width: 290px;
     }
 
     &--firstname {
-      width: 348px;
+      width: 326px;
     }
 
     &--contact-information {
       width: 258px;
+      margin-top: 47px;
     }
   }
 
@@ -601,12 +628,15 @@
   }
 
   .form__textarea {
-    width: 960px;
+    width: 933px;
+    margin-top: 47px;
   }
 
   .form__button {
     width: 481px;
     margin-left: 120px;
-    margin-right: 316px;
+    margin-right: 314px;
+    margin-bottom: 52px;
+    padding-left: 5px;
   }
 }

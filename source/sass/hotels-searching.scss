@@ -32,8 +32,12 @@
   }
 
   .hotels-searching__text {
-    width: 396px;
+    width: 460px;
     margin-top: 31px;
+  }
+
+  .hotels-searching__text-shift {
+    display: block;
   }
 
   .hotels-searching__button {
@@ -53,7 +57,7 @@
   }
 
   .hotels-searching__button {
-    margin-top: 45px;
+    margin-top: 48px;
     margin-bottom: 66px;
   }
 }
