@@ -32,8 +32,8 @@
 @media (min-width: 768px) {
   .video-gallery__title {
     font-size: 30px;
-    width: 351px;
-    padding-top: 69px;
+    width: 370px;
+    padding-top: 66px;
   }
 
   .video-gallery__text {
@@ -53,6 +53,10 @@
     width: 1200px;
     margin: 0 auto;
     background-color: $white;
+  }
+
+  .video-gallery__title {
+    padding-top: 72px;
   }
 
   .video-gallery__clip-wrapper {

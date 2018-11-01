@@ -17,11 +17,22 @@
     margin-top: 6px;
     width: 768px;
   }
+
+  .map iframe {
+    width: 768px;
+    height: 380px;
+  }
 }
 
 @media (min-width: 1200px) {
   .map {
     width: 1200px;
+    height: 365px;
     padding-top: 0;
+  }
+
+  .map iframe {
+    width: 1200px;
+    height: 355px;
   }
 }

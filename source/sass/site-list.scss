@@ -51,6 +51,9 @@
     color: $black;
     font-size: 14px;
     line-height: 26px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    padding-left: 2px;
 
     &:hover {
       background-color: $white;

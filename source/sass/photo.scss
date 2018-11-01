@@ -9,7 +9,7 @@
 }
 
 .photo__inscription {
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 .photo__name {
@@ -61,7 +61,7 @@
     flex-wrap: wrap;
     height: 53px;
     justify-content: center;
-    margin-top: 0;
+    margin-top: -4px;
     padding-top: 17px;
     padding-left: 20px;
     padding-bottom: 11px;
@@ -119,12 +119,12 @@
     position: relative;
     background-color: $blacktrans;
     width: 380px;
-    margin-top: -77px;
+    margin-top: -85px;
     padding-top: 15px;
 
     &--top-photo {
       width: 1180px;
-      padding-top: 11px;
+      padding-top: 16px;
     }
   }
 

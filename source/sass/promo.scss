@@ -6,6 +6,7 @@
   min-height: 389px;
   background-position: 50% bottom;
   text-align: center;
+  margin-top: -4px;
 
   &::after {
     content: "";
@@ -36,7 +37,7 @@
   margin: 0 auto;
   width: 280px;
   height: 210px;
-  padding-top: 95px;
+  padding-top: 92px;
 }
 
 @media (min-width: 768px) {
@@ -48,6 +49,7 @@
     background-position: 50% bottom;
     text-align: center;
     width: 768px;
+    margin-top: -2px;
 
     &::after {
       top: 461px;

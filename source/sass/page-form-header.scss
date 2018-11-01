@@ -1,5 +1,6 @@
 .page-form-header {
   background-color: $white;
+  margin-top: -5px;
 }
 
 .page-form-header__content {
@@ -20,9 +21,13 @@
 }
 
 @media (min-width: 768px) {
+  .page-form-header {
+    margin-top: -2px;
+  }
+
   .page-form-header__content {
     font-size: 30px;
-    width: 325px;
+    width: 340px;
     letter-spacing: 0.4;
     margin-top: 74px;
   }
